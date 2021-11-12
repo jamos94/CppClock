@@ -10,4 +10,5 @@ I could enhance this project by correcting an issue in format. When minutes, hou
 The top skills I enhanced while building this program would be debugging, creating loops, and designing a clear output of data. 
 By creating a display menu, I made this progam easily adaptable to different time zones by the user input. 
 
-![Clock](https://user-images.githubusercontent.com/71840637/141396793-f58a6831-0564-4c2e-b7bc-47362de5ed9f.jpg)
+
+![Clock](https://user-images.githubusercontent.com/71840637/141397034-58ebded0-6ace-43ae-96a1-4dd33099d8f1.jpg)
