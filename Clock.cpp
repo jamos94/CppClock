@@ -2,22 +2,22 @@
 // Week 3 Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
-#include <iomanip>
-// #include <windows.h>
-#ifdef _WIN32
+#include <iostream>         //C++ Standard Library that implement stream-based input/output capabilities
+#include <iomanip>          //helps us in manipulating the output of any C++ program. 
+
+#ifdef _WIN32               //if device uses window 32 include windows.h file   
 #include <Windows.h>
-#else
+#else                       //all other devices use unistd.h file
 #include <unistd.h>
 #endif
 
-#include <ctime>
-#include <cstdlib>
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include <ctime>            //include C++ library for time 
+#include <cstdlib>          //defines a collection of functions and macros to facilitate efficient, & high-performing
+#include <stdlib.h>         //includes functions involving memory allocation, process control, conversions and others
+#include <time.h>           //includes various functions for manipulating date and time
+#include <stdio.h>          //input/output operations
 
-using namespace std;
+using namespace std;        //omits using "std::" where needed
 
 void Clock(int sec, int min, int hour12, int hour24);
 // // void userInput(int sec, int min, int hour12, int hour24);
